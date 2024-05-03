@@ -10,3 +10,58 @@
     background-color: gray;
     padding: 16px 0;
 }
+
+.add-issue {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+.add-issue-btn {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color: #090;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-form {
+    width: 400px;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.title input, .desc input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.form-btn-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    width: 300px;
+}
+.cancel, .submit {
+    padding: 8px 16px;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    margin: 8px;
+}
